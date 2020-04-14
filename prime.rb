@@ -4,7 +4,7 @@ def prime?(int)
   if int == 1 || int == -1
     false
   elsif (int <= 9 && dividable_by.length < 2 && dividable_by.any?(int) && int > 0) || dividable_by.length < 1
-    false
+    true
   else
     false
   end
